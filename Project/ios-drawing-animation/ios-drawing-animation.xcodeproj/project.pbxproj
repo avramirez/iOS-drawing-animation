@@ -25,6 +25,10 @@
 		D73787851833112900ED0027 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D73787841833112900ED0027 /* MobileCoreServices.framework */; };
 		D7378788183311AF00ED0027 /* drawing_animation.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D7378787183311AF00ED0027 /* drawing_animation.mp4 */; };
 		D737878A18331E1A00ED0027 /* drawing_animation.mov in Resources */ = {isa = PBXBuildFile; fileRef = D737878918331E1A00ED0027 /* drawing_animation.mov */; };
+		D737878D1833247200ED0027 /* CGpathMaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D737878C1833247200ED0027 /* CGpathMaskViewController.m */; };
+		D737878F183325DA00ED0027 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D737878E183325DA00ED0027 /* QuartzCore.framework */; };
+		D737879218333A9000ED0027 /* epicCat.png in Resources */ = {isa = PBXBuildFile; fileRef = D737879018333A9000ED0027 /* epicCat.png */; };
+		D737879318333A9000ED0027 /* epicCat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D737879118333A9000ED0027 /* epicCat@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +65,11 @@
 		D73787841833112900ED0027 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		D7378787183311AF00ED0027 /* drawing_animation.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = drawing_animation.mp4; sourceTree = "<group>"; };
 		D737878918331E1A00ED0027 /* drawing_animation.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = drawing_animation.mov; sourceTree = "<group>"; };
+		D737878B1833247200ED0027 /* CGpathMaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGpathMaskViewController.h; sourceTree = "<group>"; };
+		D737878C1833247200ED0027 /* CGpathMaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGpathMaskViewController.m; sourceTree = "<group>"; };
+		D737878E183325DA00ED0027 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D737879018333A9000ED0027 /* epicCat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = epicCat.png; sourceTree = "<group>"; };
+		D737879118333A9000ED0027 /* epicCat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "epicCat@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D737878F183325DA00ED0027 /* QuartzCore.framework in Frameworks */,
 				D73787851833112900ED0027 /* MobileCoreServices.framework in Frameworks */,
 				D73787831833112000ED0027 /* MediaPlayer.framework in Frameworks */,
 				D737875018330E2D00ED0027 /* CoreGraphics.framework in Frameworks */,
@@ -111,6 +121,7 @@
 		D737874C18330E2D00ED0027 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D737878E183325DA00ED0027 /* QuartzCore.framework */,
 				D73787841833112900ED0027 /* MobileCoreServices.framework */,
 				D73787821833112000ED0027 /* MediaPlayer.framework */,
 				D737874D18330E2D00ED0027 /* Foundation.framework */,
@@ -130,6 +141,8 @@
 				D737875F18330E2D00ED0027 /* Main.storyboard */,
 				D737876218330E2D00ED0027 /* ViewController.h */,
 				D737876318330E2D00ED0027 /* ViewController.m */,
+				D737878B1833247200ED0027 /* CGpathMaskViewController.h */,
+				D737878C1833247200ED0027 /* CGpathMaskViewController.m */,
 				D737876518330E2D00ED0027 /* Images.xcassets */,
 				D737875418330E2D00ED0027 /* Supporting Files */,
 			);
@@ -168,6 +181,8 @@
 		D73787861833118E00ED0027 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D737879018333A9000ED0027 /* epicCat.png */,
+				D737879118333A9000ED0027 /* epicCat@2x.png */,
 				D737878918331E1A00ED0027 /* drawing_animation.mov */,
 				D7378787183311AF00ED0027 /* drawing_animation.mp4 */,
 			);
@@ -250,9 +265,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D737879318333A9000ED0027 /* epicCat@2x.png in Resources */,
 				D737876618330E2D00ED0027 /* Images.xcassets in Resources */,
 				D737875818330E2D00ED0027 /* InfoPlist.strings in Resources */,
 				D737876118330E2D00ED0027 /* Main.storyboard in Resources */,
+				D737879218333A9000ED0027 /* epicCat.png in Resources */,
 				D7378788183311AF00ED0027 /* drawing_animation.mp4 in Resources */,
 				D737878A18331E1A00ED0027 /* drawing_animation.mov in Resources */,
 			);
@@ -276,6 +293,7 @@
 				D737876418330E2D00ED0027 /* ViewController.m in Sources */,
 				D737875E18330E2D00ED0027 /* AppDelegate.m in Sources */,
 				D737875A18330E2D00ED0027 /* main.m in Sources */,
+				D737878D1833247200ED0027 /* CGpathMaskViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
