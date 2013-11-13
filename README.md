@@ -4,9 +4,14 @@ iOS-drawing-animation
 Different ways to have a drawing animation effect in iOS.
 
 
-- Native iOS CAShapeLayer and CAAnimation
+- iOS CAShapeLayer and CAAnimation
 - Video - MediaPlayer.framework
 - HTML5/JQuery animation - UIWebView
+
+
+### iOS CAShapeLayer and CAAnimation
+
+Animating the property of CAShapeLayer strokeEnd 
 
 ### Video - MPMoviePlayerController
 
