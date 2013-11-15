@@ -29,6 +29,8 @@
 		D737878F183325DA00ED0027 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D737878E183325DA00ED0027 /* QuartzCore.framework */; };
 		D737879218333A9000ED0027 /* epicCat.png in Resources */ = {isa = PBXBuildFile; fileRef = D737879018333A9000ED0027 /* epicCat.png */; };
 		D737879318333A9000ED0027 /* epicCat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D737879118333A9000ED0027 /* epicCat@2x.png */; };
+		D76273D71835C123009CB1DF /* HTML5createjsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D76273D61835C123009CB1DF /* HTML5createjsViewController.m */; };
+		D76273E51835C56C009CB1DF /* HTML5toUIView in Resources */ = {isa = PBXBuildFile; fileRef = D76273E41835C56C009CB1DF /* HTML5toUIView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,9 @@
 		D737878E183325DA00ED0027 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		D737879018333A9000ED0027 /* epicCat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = epicCat.png; sourceTree = "<group>"; };
 		D737879118333A9000ED0027 /* epicCat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "epicCat@2x.png"; sourceTree = "<group>"; };
+		D76273D51835C123009CB1DF /* HTML5createjsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTML5createjsViewController.h; sourceTree = "<group>"; };
+		D76273D61835C123009CB1DF /* HTML5createjsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTML5createjsViewController.m; sourceTree = "<group>"; };
+		D76273E41835C56C009CB1DF /* HTML5toUIView */ = {isa = PBXFileReference; lastKnownFileType = folder; path = HTML5toUIView; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +148,8 @@
 				D737876318330E2D00ED0027 /* ViewController.m */,
 				D737878B1833247200ED0027 /* CGpathMaskViewController.h */,
 				D737878C1833247200ED0027 /* CGpathMaskViewController.m */,
+				D76273D51835C123009CB1DF /* HTML5createjsViewController.h */,
+				D76273D61835C123009CB1DF /* HTML5createjsViewController.m */,
 				D737876518330E2D00ED0027 /* Images.xcassets */,
 				D737875418330E2D00ED0027 /* Supporting Files */,
 			);
@@ -181,6 +188,7 @@
 		D73787861833118E00ED0027 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D76273E41835C56C009CB1DF /* HTML5toUIView */,
 				D737879018333A9000ED0027 /* epicCat.png */,
 				D737879118333A9000ED0027 /* epicCat@2x.png */,
 				D737878918331E1A00ED0027 /* drawing_animation.mov */,
@@ -268,6 +276,7 @@
 				D737879318333A9000ED0027 /* epicCat@2x.png in Resources */,
 				D737876618330E2D00ED0027 /* Images.xcassets in Resources */,
 				D737875818330E2D00ED0027 /* InfoPlist.strings in Resources */,
+				D76273E51835C56C009CB1DF /* HTML5toUIView in Resources */,
 				D737876118330E2D00ED0027 /* Main.storyboard in Resources */,
 				D737879218333A9000ED0027 /* epicCat.png in Resources */,
 				D7378788183311AF00ED0027 /* drawing_animation.mp4 in Resources */,
@@ -290,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D76273D71835C123009CB1DF /* HTML5createjsViewController.m in Sources */,
 				D737876418330E2D00ED0027 /* ViewController.m in Sources */,
 				D737875E18330E2D00ED0027 /* AppDelegate.m in Sources */,
 				D737875A18330E2D00ED0027 /* main.m in Sources */,
@@ -502,6 +512,7 @@
 				D737877E18330E2D00ED0027 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D737877F18330E2D00ED0027 /* Build configuration list for PBXNativeTarget "ios-drawing-animationTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +521,7 @@
 				D737878118330E2D00ED0027 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
