@@ -24,7 +24,7 @@ Cons:
 ### Video - MPMoviePlayerController
 
 This process uses a video file to present the handwritting animation, I use Adobe Flash to make the animation
-then export it to a .mov or .mp4 video.
+then export it to a .mov or .mp4 video with a codec of H.264.
 
 Pros: 
 - Easy to implement.
@@ -54,4 +54,4 @@ Cons:
 I easily manage to create a HTML5 animation by using Adobe Flash and a plugin for flash called "CreateJS Toolkit". Which makes your flash animation to HTML5.
 
 
-Yes, I am a fan of Adobe Flash, but you could use any software or code your animation by yourself.
+Yes, I am a fan of Adobe Flash, but you could use any software or code your animation by yourself. And because of the new iphone5 which got a different dimeansion to the older one you may have a hard time making a animation that would work on both unless you base your Point positions base of how large the screen/container.
