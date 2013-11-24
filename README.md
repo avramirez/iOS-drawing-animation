@@ -23,7 +23,7 @@ Cons:
 
 ### Video - MPMoviePlayerController
 
-This process uses a video file to present the handwritting animation, I used Adobe Flash to make the animation
+This process uses a video file to present the handwritting animation, I use Adobe Flash to make the animation
 then export it to a .mov or .mp4 video.
 
 Pros: 
